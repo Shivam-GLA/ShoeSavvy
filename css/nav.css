@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Protest+Riot&display=swap');
+
+.navbar {
+    /* background: #EFE6F8; */
+    background: rgb(229, 229, 229);
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    padding: 6px 30px;
+}
+
+.navbar nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.navbar nav ul li {
+    list-style: none;
+    /* border: 1px solid yellow; */
+    margin: 0px 20px;
+    font-size: 1.4rem;
+    font-family: "Bree Serif", serif;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.navbar nav img {
+    width: 22px;
+}
+
+.right-nav img {
+    cursor: pointer;
+    margin: 0px 5px;
+}
+
+.navbar nav .left-nav .logo h3 {
+    font-family: "Jost", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    font-size: 1.6rem;
+    color: #271e4c;
+    text-shadow: -3px -2px 2px white;
+}
+
+.left-nav .logo {
+    display: flex;
+}
+
+.left-nav .logo img {
+    width: 30px;
+    margin-left: 6px;
+
+}
