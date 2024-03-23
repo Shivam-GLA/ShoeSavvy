@@ -45,6 +45,42 @@ footer .first-col input::placeholder {
     color: white;
 }
 
+.fbtn {
+    padding: 15px 35px;
+    width: 230px;
+    background: none;
+    color: black;
+    font-family: "Jost", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+}
+
+.fbtn:hover {
+    /* background: rgba(28, 105, 84,1); */
+    background-color: tomato;
+    color: white;
+}
+
+.fbtn-sm {
+    padding: 12px 22px;
+    width: 160px;
+    background: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 450;
+    border: none;
+}
+
+.fbtn-sm:hover {
+    background-color: #e16f37;
+    color: white;
+}
+
 footer .first-col button {
     text-transform: capitalize;
     width: 120px;

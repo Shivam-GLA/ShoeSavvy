@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Protest+Riot&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100vw;
+    height: 100vh;
+}
+
 .navbar {
     /* background: #EFE6F8; */
     background: rgb(229, 229, 229);
@@ -20,10 +31,20 @@
     align-items: center;
 }
 
+.navbar nav ul a{
+    /* border: 1px solid yellow; */
+    color: black;
+    text-decoration: none;
+    margin: 0px 20px;
+}
+
+.navbar nav ul a:hover{
+    color: tomato;
+}
+
 .navbar nav ul li {
     list-style: none;
     /* border: 1px solid yellow; */
-    margin: 0px 20px;
     font-size: 1.4rem;
     font-family: "Bree Serif", serif;
     text-transform: uppercase;
@@ -55,5 +76,4 @@
 .left-nav .logo img {
     width: 30px;
     margin-left: 6px;
-
 }
