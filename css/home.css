@@ -46,7 +46,7 @@ html {
 #home .home-right #home-img {
     height: 500px;
     width: 500px;
-    background: url("/Shoe_Site/img/three-shoe/shoes-1.png")no-repeat center center;
+    background: url("/ShoeSavvy/img/three-shoe/shoes-1.png")no-repeat center center;
     background-size: 100%;
 }
 
@@ -196,15 +196,15 @@ html {
 }
 
 #shoe-category #box-1 {
-    background: url("/Shoe_Site/img/shoe-category/men-shoe.jpg")no-repeat center center/cover;
+    background: url("/ShoeSavvy/img/shoe-category/men-shoe.jpg")no-repeat center center/cover;
 }
 
 #shoe-category #box-2 {
-    background: url("/Shoe_Site/img/shoe-category/women-shoe.jpg")no-repeat center center/cover;
+    background: url("/ShoeSavvy/img/shoe-category/women-shoe.jpg")no-repeat center center/cover;
 }
 
 #shoe-category #box-3 {
-    background: url("/Shoe_Site/img/shoe-category/sports-shoe.jpg")no-repeat center center/cover;
+    background: url("/ShoeSavvy/img/shoe-category/sports-shoe.jpg")no-repeat center center/cover;
 }
 
 /* section-one CSS */
@@ -380,7 +380,7 @@ html {
 #section-two .bg-img {
     height: 100%;
     width: 100%;
-    background: url("/Shoe_Site/img/bg-img/bg-1.webp")no-repeat bottom center/cover;
+    background: url("/ShoeSavvy/img/bg-img/bg-1.webp")no-repeat bottom center/cover;
     transition: all 2s ease;
 }
 
