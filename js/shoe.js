@@ -8,7 +8,7 @@ hoverImg1 = document.getElementById("hover-img1");
 hoverImg2 = document.getElementById("hover-img2");
 hoverImg3 = document.getElementById("hover-img3");
 
-imgLine=document.getElementById("img-hover-line");
+imgLine = document.getElementById("img-hover-line");
 
 let flag = 0;
 
@@ -35,7 +35,7 @@ hoverImg1.addEventListener("click", () => {
     img2.classList.remove("ani-2"); //remove ishliyea  kiya kyuki agr hover-img2 pe se hover-img1 par aaye to hover-img2 ka animation ktm ho jaye
     img1.classList.remove("ani-1");
     img3.classList.remove("ani-3");
-    imgLine.style.transform="translate(47px,-68px)";
+    imgLine.style.transform = "translate(45px,-55px)";
 
     // flag=1;
     // img2.style.width="645px";
@@ -52,7 +52,7 @@ hoverImg2.addEventListener("click", () => {
     img2.classList.remove("ani-22");
     img1.classList.remove("ani-11");
 
-    imgLine.style.transform="translate(214px,-68px)";
+    imgLine.style.transform = "translate(190px,-55px)";
 
     flag = 2;
     // console.log("img-2 flag is",flag);
@@ -69,12 +69,12 @@ hoverImg3.addEventListener("click", () => {
     img2.classList.add("ani-2"); //hover-img1 se jab hover-img3 par aayenge to pahale hover-img2 par aane ka animation chalana padega
     img1.classList.add("ani-1");
     img3.classList.add("ani-3");
-    
+
     img3.classList.add("ani-33"); //hover-img2 se jab hover-img3 par jab aayenge
     img2.classList.add("ani-22");
     img1.classList.add("ani-11");
 
-    imgLine.style.transform="translate(378px,-68px)";
+    imgLine.style.transform = "translate(330px,-55px)";
 
     flag = 3;
     // console.log("img-3 after flag",(flag));

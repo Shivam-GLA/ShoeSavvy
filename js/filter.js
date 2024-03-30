@@ -1,3 +1,5 @@
+// on click filter button
+
 let filter = document.getElementById("filter");
 let shoe_container = document.getElementById("shoe-container");
 
@@ -39,4 +41,22 @@ document.querySelector(".cross").addEventListener("click", () => {
         document.querySelector("#filter").style.display = "none";
         document.querySelector(".cross").style.display = "inline";
     }
+})
+
+// Rangebar price javascript
+
+let myRangeBar = document.getElementById("rangebar");
+let inMax = document.getElementById("range-max");
+myRangeBar.addEventListener("change", (e) => {
+    // console.log(myProgressBar);
+    // console.log(e.target.value);
+    let rangeBarValue = e.target.value;
+    inMax.value = rangeBarValue;
+})
+
+inMax.addEventListener("change", (e) => {
+    // console.log("range-max input field value is ",e.target.value);
+    // console.log(e.target.value);
+    let inMaxValue = e.target.value;
+    myRangeBar.value = inMaxValue;
 })
