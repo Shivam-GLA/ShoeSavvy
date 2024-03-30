@@ -144,7 +144,7 @@ html {
     transition: all 0.3s ease;
 }
 
-#shoe-category .box:hover{
+#shoe-category .box:hover {
     box-shadow: 5px 15px 15px 8px #00000014;
     transform: translateY(-10px);
 }
@@ -216,7 +216,11 @@ html {
 }
 
 #section-one .heading {
+    /* border: 2px solid green; */
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #section-one .heading h2 {
@@ -233,7 +237,7 @@ html {
     border: 1px solid tomato;
     border-radius: 1px;
     width: 130px;
-    margin: auto;
+    /* margin: auto; */
     /* transform: translateX(-800px); */
     animation: linemove 3s ease;
 }
@@ -357,6 +361,167 @@ html {
     color: #e16f37;
 }
 
+/* #choice CSS */
+
+#choice {
+    /* border: 3px solid blue; */
+    width: 100%;
+    /* height: 75%; */
+    display: grid;
+    grid-template-columns: repeat(3, 420px);
+    grid-template-rows: 460px;
+    justify-content: space-between;
+    padding: 40px 15px;
+}
+
+#choice .box {
+    /* border: 1px solid black; */
+    font-family: "Jost", sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#choice .box img {
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+#choice .box:hover img {
+    transform: scale(1.1);
+}
+
+#choice .box .info {
+    /* border: 1px solid red; */
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+    width: 330px;
+}
+
+#choice .box .info h2 {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #000;
+    margin-bottom: 14px;
+}
+
+#choice .box .info a {
+    /* border: 1px solid yellow; */
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    padding-bottom: 4px;
+    color: #2c2c2c;
+    display: inline-block;
+    width: 79px;
+    letter-spacing: 1px;
+}
+
+#choice .box .info .line {
+    width: 75px;
+    margin: auto;
+    border-bottom: 1px solid #2c2c2c;
+    transition: all 0.2s ease;
+}
+
+#choice .box .info a:hover .line {
+    width: 45px;
+}
+
+#choice #box-1 .info {
+    text-align: left;
+}
+
+#choice #box-3 .info {
+    text-align: right;
+}
+
+/* #offer css */
+
+#offer {
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 60px;
+}
+
+#offer .box {
+    /* border: 2px solid green; */
+    width: 45%;
+    height: 260px;
+    font-family: "Jost", sans-serif;
+    font-weight: 100;
+    margin: 0px 25px;
+    position: relative;
+    color: white;
+    padding: 0px 250px 0px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 7px 10px 15px rgba(0, 0, 0, 0.4);
+}
+
+#offer .box h3 {
+    font-weight: 400;
+}
+
+#offer .box h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 45px;
+    margin: 15px 0px;
+}
+
+#offer .box a {
+    text-decoration: none;
+    color: white;
+    width: 90px;
+    border-bottom: 1px solid white;
+}
+
+#offer .box a:hover {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+
+#offer .box a h3 {
+    font-weight: 400;
+}
+
+#offer #box-1::after {
+    background: rgba(0, 0, 0, 0.4) url("/ShoeSavvy/img/bg-img/bg-3.webp")no-repeat center center/cover;
+    background-blend-mode: darken;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+#offer #box-2::after {
+    background: rgba(0, 0, 0, 0.4) url("/ShoeSavvy/img/bg-img/bg-4.jpg")no-repeat center center/cover;
+    background-blend-mode: darken;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
 /* section-two CSS*/
 
 #section-two {
@@ -432,6 +597,289 @@ html {
     color: white;
 }
 
+/* #emailus CSS */
+
+#emailus {
+    background: #ffe6da;
+    width: 100%;
+    height: 350px;
+    font-family: "Jost", sans-serif;
+    display: flex;
+    margin-top: 60px;
+}
+
+#emailus .left {
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#emailus .left h1 {
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+#emailus .left h3 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#emailus .left .line {
+    width: 117px;
+    border-bottom: 2px solid #e16f37;
+    margin: 5px 0px;
+}
+
+#emailus .right {
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#emailus .right .input-container {
+    /* border: 2px solid green; */
+    display: flex;
+    background-color: white;
+}
+
+#emailus .right input {
+    font-family: "Jost", sans-serif;
+    padding: 15px;
+    padding-right: 12rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #495057;
+    background-color: #fff;
+}
+
+#emailus .right .send {
+    border: 1px solid transparent;
+    padding: 12px;
+    height: 53px;
+    width: 53px;
+    background-color: #1c88c5;
+    cursor: pointer;
+    filter: invert(100%);
+}
+
+#emailus .right .send:hover {
+    background-color: white;
+    filter: invert(0%);
+    border: 1px solid black;
+}
+
+/* #section-three CSS */
+
+.women-btn {
+    padding: 15px 35px;
+    width: 230px;
+    background: none;
+    font-family: "Jost", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+}
+
+.women-btn:hover {
+    /* background: rgba(28, 105, 84,1); */
+    background-color: tomato;
+    color: white;
+}
+
+.women-btn-sm {
+    padding: 12px 22px;
+    width: 160px;
+    background: black;
+    color: white;
+    letter-spacing: 0.8px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 450;
+    border: none;
+}
+
+.women-btn-sm:hover {
+    background-color: #e16f37;
+    color: white;
+}
+
+
+#section-three {
+    /* border: 2px solid red; */
+    /* height: 90%; */
+    height: 580px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    column-gap: 30px;
+    margin-top: 20px;
+    /* margin-bottom: 30px; */
+}
+
+#section-three .left {
+    /* border: 6px solid green; */
+    height: 100%;
+    width: 200%;
+    /* background-color: rgb(188, 255, 233); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Jost", sans-serif;
+    color: white;
+    padding-top: 100px;
+    position: relative;
+    transition: all 0.4s ease;
+    /* box-shadow: 7px 10px 12px rgba(0, 0, 0, 0.4); */
+}
+
+#section-three .left:hover {
+    box-shadow: 0px 8px 28px rgba(0, 0, 0, 0.4);
+    /* transform: translateY(-15px); */
+}
+
+#section-three .left::after {
+    background: rgba(0, 0, 0, 0.3) url("/ShoeSavvy/img/bg-img/bg-7.jpg")no-repeat top center/cover;
+    background-blend-mode: darken;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* filter: blur(0.8px); */
+    /* opacity: 0.9; */
+}
+
+#section-three .left h3 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#section-three .left h1 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    letter-spacing: 0.8px;
+}
+
+#section-three .left button {
+    font-size: 10px;
+    width: 148px;
+    background-color: #6e2020;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+#section-three .left button:hover {
+    background-color: #e16f37;
+    transform: translateY(-10px);
+}
+
+#section-three .right {
+    /* border: 6px solid green; */
+    width: 100%;
+    font-family: "Jost", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#section-three .right .box {
+    /* border: 2px solid black; */
+    height: 47%;
+    width: 100%;
+    position: relative;
+    /* background-color: rgb(237, 255, 210); */
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 42px;
+    padding-bottom: 50px;
+    transition: all 0.4s ease;
+}
+
+#section-three .right .box:hover {
+    /* transform: translateY(-15px); */
+    /* box-shadow: 7px 10px 12px rgba(0, 0, 0, 0.4); */
+    box-shadow: 4px 8px 28px rgba(0, 0, 0, 0.4);
+}
+
+#section-three .right .box h3 {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+#section-three .right .box h1 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    margin: 10px 0px;
+}
+
+#section-three .right .box button {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    margin-top: 0px;
+    font-size: 13px;
+    width: 130px;
+    padding: 7px 22px;
+    border-radius: 0px;
+    transition: all 0.2s ease;
+}
+
+#section-three .right .box button:hover {
+    background-color: #e16f37;
+    border: none;
+    color: white;
+}
+
+#section-three .right #box-1::after {
+    background: rgba(0, 0, 0, 0.3) url("/ShoeSavvy/img/bg-img/bg-11.jpg")no-repeat bottom left/cover;
+    background-blend-mode: darken;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+#section-three .right #box-2::after {
+    background: rgba(0, 0, 0, 0.3) url("/ShoeSavvy/img/bg-img/bg-12.jpg")no-repeat bottom left/cover;
+    background-blend-mode: darken;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
 /* #service CSS */
 
 #service {
@@ -495,7 +943,7 @@ html {
     background-color: rgb(223, 245, 255);
 }
 
-/* #section-six CSS */
+/* #shoe-compare CSS */
 
 #shoe-compare {
     /* border: 4px solid green; */
@@ -549,10 +997,10 @@ html {
 }
 
 #shoe-compare .box img:hover {
-     /* border: 1px solid #eaeaea; */
-     /* border: none; */
-     border-radius: 50%;
-     box-shadow: 0px 0px 5px #00000014;
+    /* border: 1px solid #eaeaea; */
+    /* border: none; */
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px #00000014;
 }
 
 #shoe-compare .box .info a {
@@ -583,229 +1031,6 @@ html {
     font-weight: 500;
     font-size: 16px;
     color: #b8920b;
-}
-
-/* section-three CSS */
-
-#section-three {
-    height: 85%;
-    width: 100%;
-    /* background-color: antiquewhite; */
-}
-
-#section-three .heading {
-    font-family: "Bree Serif", serif;
-    font-size: 2rem;
-    text-align: center;
-    letter-spacing: 1px;
-    font-weight: 100;
-    color: rgb(78, 78, 78);
-}
-
-#section-three h2 {
-    padding-top: 50px;
-}
-
-#section-three .sub-heading {
-    padding: 12px;
-    font-size: 1.2rem;
-    color: rgb(104, 104, 104);
-}
-
-#section-three .team-container {
-    /* border: 4px solid red; */
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    grid-template-columns: repeat(4, 290px);
-    padding: 35px 40px;
-}
-
-.team-container .box {
-    /* border: 2px solid red; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-}
-
-.team-container .box .team {
-    /* border: 2px solid black; */
-    height: 260px;
-    width: 260px;
-    background-color: #efefef;
-    margin: 0px 15px;
-    /* border-radius: 20px; */
-    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4); */
-    box-shadow: 7px 10px 9px #00000014;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* padding: 40px; */
-    /* cursor: pointer; */
-    transition: all 0.8s ease;
-    overflow: hidden;
-}
-
-#section-three .team-container .team img {
-    /* border: 2px solid black; */
-    width: 100%;
-    height: 100%;
-    transition: all 0.8s ease;
-}
-
-.box .team:hover .team-img {
-    transform: scale(1.03);
-}
-
-.team-container .box h3 {
-    font-family: "Bree Serif", serif;
-    font-weight: 100;
-    cursor: pointer;
-    margin: 10px 0px;
-}
-
-.team-container .box p {
-    font-family: "Jost", sans-serif;
-    letter-spacing: 0.8px;
-    font-weight: 400;
-    font-size: 15px;
-    color: rgb(134, 134, 134);
-}
-
-.team-container .box .social-icons {
-    /* border: 2px solid black; */
-    position: absolute;
-    bottom: 90px;
-}
-
-.team-container .box .social-icons a {
-    /* border: 1px solid #ccc; */
-    border: 0.5px solid black;
-    border-radius: 50%;
-    display: inline-flex;
-    width: 35px;
-    height: 35px;
-    justify-content: center;
-    padding: 8px;
-    margin: 0px 3px;
-    opacity: 0;
-    transition: all 1s ease;
-    background-color: tomato;
-    filter: invert(100%);
-}
-
-.team-container .box .social-icons a:hover {
-    background-color: rgb(231, 231, 231);
-    filter: invert(0%);
-}
-
-.team-container .box:hover .social-icons a {
-    opacity: 1;
-}
-
-.team-container .box .social-icons a img {
-    /* filter: invert(100%); */
-}
-
-/* #contact CSS */
-
-#contact {
-    /* border: 4px solid green; */
-    width: 100vw;
-    height: 90vh;
-    display: flex;
-    padding-top: 40px;
-}
-
-#contact .form {
-    /* border: 2px solid black; */
-    height: 100%;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    padding: 0px 45px 0px 100px;
-}
-
-#contact .form h3 {
-    font-family: "Jost", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    text-transform: uppercase;
-    color: rgb(17, 17, 17);
-}
-
-#contact .form h2 {
-    /* border: 2px solid yellow; */
-    font-family: "Jost", sans-serif;
-    font-weight: 400;
-    line-height: 40px;
-    letter-spacing: 0.3px;
-    font-size: 2.2rem;
-    padding-right: 90px;
-    margin: 10px 0px 40px 0px;
-}
-
-#contact .form .form-input {
-    /* border: 1px solid black; */
-    display: flex;
-    justify-content: space-between;
-}
-
-#contact .form .form-input input {
-    font-family: "Jost", sans-serif;
-    font-size: 1.1rem;
-    width: 250px;
-    padding: 8px 0px;
-    margin-bottom: 15px;
-    color: #5b686b;
-    border: none;
-    outline: none;
-    border-radius: 0;
-    background-color: transparent;
-    border-bottom: 1px solid #5b686b;
-}
-
-#contact .form textarea {
-    font-family: "Jost", sans-serif;
-    font-size: 1.1rem;
-    padding: 8px 0px 35px 0px;
-    color: #5b686b;
-    outline: none;
-    border-radius: 0;
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid #5b686b;
-}
-
-#contact .form .btn-msg {
-    border: none;
-    background-color: rgb(112 37 37);
-    color: white;
-    font-size: 15px;
-    width: 170px;
-    margin-top: 25px;
-    border-radius: 30px;
-    text-transform: capitalize;
-}
-
-#contact .form .btn-msg:hover {
-    background-color: rgb(160, 57, 57);
-}
-
-#contact .video {
-    /* border: 2px solid black; */
-    height: 100%;
-    width: 50%;
-    padding-right: 100px;
-}
-
-#contact video {
-    /* border: 1px solid red; */
-    height: 58%;
-    width: 95%;
-    border-radius: 35px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
 }
 
 /* #instra CSS */
