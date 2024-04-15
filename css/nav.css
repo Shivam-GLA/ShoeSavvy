@@ -14,7 +14,8 @@ body {
 
 .navbar {
     /* background: #EFE6F8; */
-    background: rgb(229, 229, 229);
+    /* background: rgb(229, 229, 229); */
+    background-color: white;
     position: sticky;
     top: 0px;
     z-index: 1000;
@@ -47,7 +48,7 @@ body {
 .navbar nav ul li {
     /* border: 1px solid yellow; */
     list-style: none;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-family: "Bree Serif", serif;
     text-transform: uppercase;
     cursor: pointer;
@@ -99,7 +100,7 @@ body {
     font-family: "Jost", sans-serif;
     font-weight: 600;
     letter-spacing: 0.3px;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: #271e4c;
     text-shadow: -3px -2px 2px white;
 }

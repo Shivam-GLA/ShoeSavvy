@@ -239,6 +239,10 @@ html {
     background-color: rgb(160, 57, 57);
 }
 
+#contact-section2 .form .btn-msg:active {
+    background-color: rgb(99, 25, 25);
+}
+
 #contact-section2 .video {
     /* border: 2px solid black; */
     height: 100%;

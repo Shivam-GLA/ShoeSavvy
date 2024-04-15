@@ -232,6 +232,10 @@ body {
     background-color: tomato;
 }
 
+.btn:active{
+    background-color: rgb(151, 38, 38);
+}
+
 .info-container button img {
     width: 17px;
     filter: invert(100%);

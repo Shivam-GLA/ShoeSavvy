@@ -173,6 +173,10 @@ html {
     box-shadow: 0 15px 10px #00000014;
 }
 
+#cart .center .middle .btn-delete:active{
+    background-color: brown;
+}
+
 #cart .center .right {
     /* border: 1px solid black; */
     padding-top: 25px;

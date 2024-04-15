@@ -46,7 +46,7 @@ html {
 #home .home-right #home-img {
     height: 500px;
     width: 500px;
-    background: url("/ShoeSavvy/img/three-shoe/shoes-1.png")no-repeat center center;
+    background: url("../img/three-shoe/shoes-1.png")no-repeat center center;
     background-size: 100%;
 }
 
@@ -102,6 +102,11 @@ html {
     background-color: tomato;
     color: white;
 }
+
+.btn:active {
+    background-color: rgb(148, 39, 39);
+}
+
 
 /* .home-right .img-toggle-btn{
     border: 2px solid black;
@@ -198,15 +203,15 @@ html {
 }
 
 #shoe-category #box-1 {
-    background: url("/ShoeSavvy/img/shoe-category/men-shoe.jpg")no-repeat center center/cover;
+    background: url("../img/shoe-category/men-shoe.jpg")no-repeat center center/cover;
 }
 
 #shoe-category #box-2 {
-    background: url("/ShoeSavvy/img/shoe-category/women-shoe.jpg")no-repeat center center/cover;
+    background: url("../img/shoe-category/women-shoe.jpg")no-repeat center center/cover;
 }
 
 #shoe-category #box-3 {
-    background: url("/ShoeSavvy/img/shoe-category/sports-shoe.jpg")no-repeat center center/cover;
+    background: url("../img/shoe-category/sports-shoe.jpg")no-repeat center center/cover;
 }
 
 /* section-one CSS */
@@ -499,7 +504,7 @@ html {
 }
 
 #offer #box-1::after {
-    background: rgba(0, 0, 0, 0.4) url("/ShoeSavvy/img/bg-img/bg-3.webp")no-repeat center center/cover;
+    background: rgba(0, 0, 0, 0.4) url("../img/bg-img/bg-3.webp")no-repeat center center/cover;
     background-blend-mode: darken;
     content: "";
     position: absolute;
@@ -512,7 +517,7 @@ html {
 }
 
 #offer #box-2::after {
-    background: rgba(0, 0, 0, 0.4) url("/ShoeSavvy/img/bg-img/bg-4.jpg")no-repeat center center/cover;
+    background: rgba(0, 0, 0, 0.4) url("../img/bg-img/bg-4.jpg")no-repeat center center/cover;
     background-blend-mode: darken;
     content: "";
     position: absolute;
@@ -547,7 +552,7 @@ html {
 #section-two .bg-img {
     height: 100%;
     width: 100%;
-    background: url("/ShoeSavvy/img/bg-img/bg-1.webp")no-repeat bottom center/cover;
+    background: url("../img/bg-img/bg-1.webp")no-repeat bottom center/cover;
     transition: all 2s ease;
 }
 
@@ -597,6 +602,10 @@ html {
 .btn-sm:hover {
     background-color: #e16f37;
     color: white;
+}
+
+.btn-sm:active {
+    background-color: rgb(148, 39, 39);
 }
 
 /* #emailus CSS */
@@ -758,7 +767,7 @@ html {
 }
 
 #section-three .left::after {
-    background: rgba(0, 0, 0, 0.3) url("/ShoeSavvy/img/bg-img/bg-7.jpg")no-repeat top center/cover;
+    background: rgba(0, 0, 0, 0.3) url("../img/bg-img/bg-7.jpg")no-repeat top center/cover;
     background-blend-mode: darken;
     content: "";
     position: absolute;
@@ -857,7 +866,7 @@ html {
 }
 
 #section-three .right #box-1::after {
-    background: rgba(0, 0, 0, 0.3) url("/ShoeSavvy/img/bg-img/bg-11.jpg")no-repeat bottom left/cover;
+    background: rgba(0, 0, 0, 0.3) url("../img/bg-img/bg-11.jpg")no-repeat bottom left/cover;
     background-blend-mode: darken;
     content: "";
     position: absolute;
@@ -870,7 +879,7 @@ html {
 }
 
 #section-three .right #box-2::after {
-    background: rgba(0, 0, 0, 0.3) url("/ShoeSavvy/img/bg-img/bg-12.jpg")no-repeat bottom left/cover;
+    background: rgba(0, 0, 0, 0.3) url("../img/bg-img/bg-12.jpg")no-repeat bottom left/cover;
     background-blend-mode: darken;
     content: "";
     position: absolute;

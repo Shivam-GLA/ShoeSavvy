@@ -66,6 +66,10 @@ footer .first-col input::placeholder {
     color: white;
 }
 
+.fbtn:active {
+    background-color: rgb(148, 39, 39);
+}
+
 .fbtn-sm {
     padding: 12px 22px;
     width: 160px;
@@ -80,6 +84,11 @@ footer .first-col input::placeholder {
     background-color: #e16f37;
     color: white;
 }
+
+.fbtn-sm:active {
+    background-color: rgb(148, 39, 39);
+}
+
 
 footer .first-col button {
     text-transform: capitalize;
